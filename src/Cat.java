@@ -24,8 +24,8 @@ public class Cat {
 	public void draw(Graphics g, int catX, int catY)
 	{
 		Graphics2D g2 = (Graphics2D) g;
-		int x=catX;
-		int y=catY;
+		int x=catX + 100;
+		int y=catY + 100;
 		// Draw the head
 		g2.setColor(Color.yellow);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
